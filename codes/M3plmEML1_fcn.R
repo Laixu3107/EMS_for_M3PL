@@ -51,8 +51,6 @@ calcu_CR <- function(A_t, A_opt, fixed, col_swap=F){
 }
 
 
-
-
 # ---- EML1 for M3pl model -----------------------------------------------------
 M3pl_EML1 <- function(
     y,                # N*J mat, observed item responses.
