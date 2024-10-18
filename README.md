@@ -1,7 +1,7 @@
 # EMS for latent variable selection in M3PL model
 ## Introduction
 
-The expectation model selection (EMS) algorithm and EM-based L1 (EML1) penalized method for latent variable selection in multidimensional 3-parameter logistic (M3PL) model are provided. Both methods adopt the Gauss-Hermite quadrature to numerically approximate the multidimensional integral. The EMS applies the Newton's method for parameter updating, while EML1 uses the coordinate descent algorithm. The two methods can be directly used for M2PL by setting the initial vaule of \(c_j\)s to zero.
+The expectation model selection (EMS) algorithm and EM-based L1 (EML1) penalized method for latent variable selection in multidimensional 3-parameter logistic (M3PL) model are provided. Both methods adopt the Gauss-Hermite quadrature to numerically approximate the multidimensional integral. The EMS applies the Newton's method for parameter updating, while EML1 uses the coordinate descent algorithm. The two methods can be directly used for M2PL by setting the initial vaule of $c_j$s to zero.
 
 The **codes** directory contains the following 4 files:
 
