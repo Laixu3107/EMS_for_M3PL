@@ -10,10 +10,10 @@ The **codes** directory contains the following 4 files:
 - M3plmEML1_algorithm.cpp includes the c++ implementations of EM-based L1 penalized (EML1) method for M3PLM.
 - M3plmEML1_fcn.R comprises R functions for EML1 along with a simple test that users can directly invoke.
 
-Since these implementations rely on Gauss-Hermite quadrature, please ensure that the R package 'mvQuad' is installed before running the code. Besides, the c++ implementations are based on R-packages 'Rcpp', 'RcppArmadillo' and 'RcppClock'. To run the examples.R, the R-packages 'magrittr' and 'MASS' are required.
+Since these implementations rely on Gauss-Hermite quadrature, please ensure that the R package 'mvQuad' is installed before running the code. Besides, the c++ implementations are based on R-packages 'Rcpp', 'RcppArmadillo' and 'RcppClock'. To run the examples, the R-packages 'magrittr' and 'MASS' are required.
 
 ## Citation
 
 To cite these codes in publications, please use the following reference:
 
-Shang, L., Xu, P. F., Shan, N., Tang, M. L, & Zheng, Q. Z. (2024). The improved EMS algorithm for latent variable selection in M3PL model. Applied Psychological Measurement. Accepted for publication.
+Shang, L., Xu, P. F., Shan, N., Tang, M. L., & Zheng, Q. Z. (2024). The improved EMS algorithm for latent variable selection in M3PL model. Applied Psychological Measurement. Accepted for publication.
