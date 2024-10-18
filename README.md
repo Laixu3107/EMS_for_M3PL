@@ -1,7 +1,7 @@
 # EMS for latent variable selection in M3PL model
 ## Introduction
 
-The expectation model selection (EMS) algorithm and EM-based L1 (EML1) penalized method for latent variable selection in multidimensional 3-parameter logistic (M3PL) model are provided. Both the two methods adopt the Gauss-Hermite quadrature to numerically approximate the multidimensional integral. The EMS apply the Newton's method for parameter updating, while EML1 coordinate descent algorithm. The two methods can be directly used for M2PL by setting the initial vaule of each \(c_j\)'s to zero.
+The expectation model selection (EMS) algorithm and EM-based L1 (EML1) penalized method for latent variable selection in multidimensional 3-parameter logistic (M3PL) model are provided. Both methods adopt the Gauss-Hermite quadrature to numerically approximate the multidimensional integral. The EMS applies the Newton's method for parameter updating, while EML1 uses the coordinate descent algorithm. The two methods can be directly used for M2PL by setting the initial vaule of \(c_j\)s to zero.
 
 The **codes** directory contains the following 4 files:
 
@@ -10,7 +10,7 @@ The **codes** directory contains the following 4 files:
 - M3plmEML1_algorithm.cpp includes the c++ implementations of EM-based L1 penalized (EML1) method for M3PLM.
 - M3plmEML1_fcn.R comprises R functions for EML1 along with a simple test that users can directly invoke.
 
-These implementations rely on Gauss-Hermite quadrature. Please ensure that the R package 'mvQuad' is installed before running the code. The c++ implementations are based on R-packages 'Rcpp', 'RcppArmadillo' and 'RcppClock'. To run the examples.R, the R-packages 'magrittr' and 'MASS' are required.
+Since these implementations rely on Gauss-Hermite quadrature, please ensure that the R package 'mvQuad' is installed before running the code. Besides, the c++ implementations are based on R-packages 'Rcpp', 'RcppArmadillo' and 'RcppClock'. To run the examples.R, the R-packages 'magrittr' and 'MASS' are required.
 
 ## Citation
 
