@@ -8,7 +8,7 @@ if(sys.nframe() == 0L){rm(list=ls()); gc()}
 
 # ---- required packages -------------------------------------------------------
 library(mvQuad)     # GH quadrature points and weights
-Rcpp::sourceCpp("./03_M3plmEMS_algorithm.cpp")
+Rcpp::sourceCpp("./M3plmEMS_algorithm.cpp")
 
 
 # ---- some useful function ----------------------------------------------------
