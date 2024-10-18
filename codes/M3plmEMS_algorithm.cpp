@@ -471,6 +471,3 @@ double calcu_obs_ebic(
   
   return(obs_ebic);
 }
-
-
-
