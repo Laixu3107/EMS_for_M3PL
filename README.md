@@ -1,7 +1,7 @@
 # EMS for latent variable selection in M3PL model
 ## Introduction
 
-The generalized expectation model selection (GEMS) algorithm is proposed for dealing with the model selection problem in presence of missing data. For the latent variable selection in multidimension two-parameter logistic model (M2PLM), we present an efficient implementation of GEMS to find the optimal model (i.e., the structure of item-trait relationships) and the parameter estimates (including the item discrimination and difficulty parameters) under optimal model which results in the smallest BIC value. The GEMS for M2PLM is more computationally efficient than the EMS proposed by Xu et al. (2022).
+The expectation model selection (EMS) algorithm and EM-based L1 (EML1) penalized method for latent variable selection in multidimensional 3-parameter logistic (M3PL) model are provided. Both the two methods adopt the Gauss-Hermite quadrature to numerically approximate the multidimensional integral. The EMS apply the Newton's method for parameter updating, while EML1 coordinate descent algorithm. The two methods can be directly used for M2PL by setting the initial vaule of each \(c_j\)'s to zero.
 
 The **codes** directory contains the following 4 files:
 
